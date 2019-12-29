@@ -23,7 +23,7 @@ public class AuthorizationServerConfiguration extends AuthorizationServerConfigu
     @Qualifier("authenticationManagerBean")
     private AuthenticationManager authenticationManager;
 
-    @Value("${gigy.oauth.tokenTimeout:3600}")
+    @Value("${maxwell.oauth.tokenTimeout:3600}")
     private int expiration;
     
     @Autowired
